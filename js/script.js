@@ -50,6 +50,7 @@ setTimeout(function(){
                 alert('Assicurati di inserire numeri!')
             }
         }
+    console.log(userNum)
 }, 1100)
 
 console.log(randomNum)
