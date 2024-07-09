@@ -35,4 +35,7 @@ setTimeout(function(){
     numbersOutput.classList.add('invisible')
 }, 1000)
 
+// DEFINISCO UN'ARRAI DOVE INSERIRE I NUMERI DELL'UTENTE
+const userNum = [];
+
 console.log(randomNum)
