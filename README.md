@@ -8,8 +8,8 @@ Dividete in piccoli problemi la consegna.
 Individuate gli elementi di cui avete bisogno per realizzare il programma.
 
 SCOMPOSIZIONE IN SOTTOPROBLEMI
->Definisco una funzione che genera 5 numeri in maniera randomica 
-    >>Definisco un array vuoto dove andro a pushare i numeri generati 
+>Definisco un array vuoto dove andro a pushare i numeri generati 
+>Definisco una funzione che genera 5 numeri in maniera randomica    
     >>Attreverso l'utilizzo del ciclo while genero 5 numeri 
         >>>Utilizzando la condizione if, verifico che il numero non sia gia presente nel'array 
             >>>>Pusho il numero nell'array
