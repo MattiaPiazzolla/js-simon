@@ -37,5 +37,9 @@ setTimeout(function(){
 
 // DEFINISCO UN'ARRAI DOVE INSERIRE I NUMERI DELL'UTENTE
 const userNum = [];
+// DEFINISCO IL setTimeout PER IL PROMPT
+setTimeout(function(){
+    
+}, 1100)
 
 console.log(randomNum)
