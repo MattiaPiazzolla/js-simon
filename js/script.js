@@ -31,7 +31,8 @@ for(let i = 0; i < randomNum.length; i++){
 
 // DEFINISCO IL setTimeout
 setTimeout(function(){
-    
+    // AGGIUNGO UNA CLASSE PER NASCONDERE I NUMERI AL TERMINE DEL TIMER
+    numbersOutput.classList.add('invisible')
 }, 1000)
 
 console.log(randomNum)
