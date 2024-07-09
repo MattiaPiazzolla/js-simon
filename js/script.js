@@ -17,3 +17,5 @@ function generateRandomNum (){
 
 // DEFINISCO L'OUTPUT DEI NUMERI CHIAMANDO LA FUNZIONE
 generateRandomNum();
+// RECUPERO LA DESTINAZIONE DELL'OUTPUT
+const numbersOutput = document.getElementById('numbersOutput')
