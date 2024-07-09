@@ -41,7 +41,9 @@ const userNum = [];
 setTimeout(function(){
         // AGGIUNGO UN CICLO WHILE PER FAR COMPARIRE UN FOR PER ACCETTARE PROMPT CON I NUMERI INSERITI DALL'UTENTE
         while (userNum.length < 5){
-        
+            // DEFINISCO UNA VARIABILE PER IN NUMERI INSERITI DALL'UTENTE
+            let numAdd = parseInt(prompt('Inserisci uno dei numeri che hai appena visto'));
+            
         }
 }, 1100)
 
