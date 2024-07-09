@@ -57,3 +57,7 @@ setTimeout(function(){
 
 // DICHIARO UNA VARIABILE PER I NUMERI INDOVINATI
 let guessedNumber = 0;
+// CICLO FOR PER COMPARARE I NUMERI 
+for (let i = 0; i < userNum.length; i++) {
+    
+}
