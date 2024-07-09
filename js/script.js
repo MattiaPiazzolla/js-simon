@@ -4,6 +4,7 @@ function generateRandomNum (){
     const randomNum = [];
     // DEDINISCO UN CICLO WHILE PER GENERARE 5 NUMERI 
     while (randomNum.length < 5){
-        
+        // TRAMITE I COMANTI MATH DEFINISCO LA CREAZIONE DI UN NUMERO ENTRO UN DETERMINATO RANGE DI NUMERI (IN QUESTO CASO DA 1 A 100)
+        let num = Math.floor(Math.random() * 100 + 1);
     }
 }
