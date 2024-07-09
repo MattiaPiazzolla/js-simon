@@ -12,11 +12,12 @@ function generateRandomNum (){
             randomNum.push(num);
         }
     }
+    
 }
-
 
 // DEFINISCO L'OUTPUT DEI NUMERI CHIAMANDO LA FUNZIONE
 generateRandomNum();
+
 // RECUPERO LA DESTINAZIONE DELL'OUTPUT
 const numbersOutput = document.getElementById('numbersOutput')
 // DEFINISCO UN CICLO FOR PER CICLARE E RECUPERARE TUTTI GLI ELEMENTI DELL'ARRAY 
@@ -37,6 +38,7 @@ setTimeout(function(){
 
 // DEFINISCO UN'ARRAI DOVE INSERIRE I NUMERI DELL'UTENTE
 const userNum = [];
+
 // DEFINISCO IL setTimeout PER IL PROMPT
 setTimeout(function(){
         // AGGIUNGO UN CICLO WHILE PER FAR COMPARIRE UN FOR PER ACCETTARE PROMPT CON I NUMERI INSERITI DALL'UTENTE
@@ -44,13 +46,14 @@ setTimeout(function(){
             // DEFINISCO UNA VARIABILE PER IN NUMERI INSERITI DALL'UTENTE
             let numAdd = parseInt(prompt('Inserisci uno dei numeri che hai appena visto'));
             // DEFINISCO LE CONDIZIONI PER VERIFICARE CHE I NUMERI NON SI RIPETANO ALL'INTERNO DELL'ARRAI
-            if(!userNum.includes(numAdd) || (!isNaN(numAdd))){
+            if(!userNum.includes(numAdd) && (!isNaN(numAdd))){
                 userNum.push(numAdd)
             } else {
-                alert('Assicurati di inserire numeri!')
+                alert('Assicurati di inserire un numero e che il numero non sia già stato inserito')
             }
         }
-    console.log(userNum)
-}, 1100)
+    }, 1100)
+    
 
-console.log(randomNum)
+// DICHIARO UNA VARIABILE PER I NUMERI INDOVINATI
+let guessedNumber = 0;
