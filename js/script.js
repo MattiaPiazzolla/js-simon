@@ -29,4 +29,9 @@ for(let i = 0; i < randomNum.length; i++){
     numbersOutput.append(p);
 }
 
+// DEFINISCO IL setTimeout
+setTimeout(function(){
+    
+}, 1000)
+
 console.log(randomNum)
