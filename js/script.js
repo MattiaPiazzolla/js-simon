@@ -1,0 +1,4 @@
+// DEFINISCO LA FUNZIONE PER GENERARE 5 NUMERI CASUALI 
+function generateRandomNum (){
+
+}
