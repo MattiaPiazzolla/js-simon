@@ -34,7 +34,7 @@ for(let i = 0; i < randomNum.length; i++){
 setTimeout(function(){
     // AGGIUNGO UNA CLASSE PER NASCONDERE I NUMERI AL TERMINE DEL TIMER
     numbersOutput.classList.add('invisible')
-}, 1000)
+}, 30000)
 
 // DEFINISCO UN'ARRAI DOVE INSERIRE I NUMERI DELL'UTENTE
 const userNum = [];
@@ -68,5 +68,7 @@ setTimeout(function(){
         const resultsOutput = document.getElementById('resultsOutput');
         // GESTISCO L'OUTPUT DEI RISULTATI
         resultsOutput.innerText = `Hai indovinato ${guessedNumber} numeri!`;
-    }, 1100)
+    }, 30200)
     
+// PROBLEMI:
+// come posso evitare di inserire l'array dei numeri random, in posizione globale? 

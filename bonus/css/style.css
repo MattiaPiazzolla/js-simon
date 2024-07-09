@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.custoW100{
+    width: 75px;
+}
+
+@media screen and (min-width : 576px) {
+    .custoW100{
+        width: 100px;
+    }
+}
