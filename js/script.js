@@ -25,7 +25,8 @@ for(let i = 0; i < randomNum.length; i++){
     let p = document.createElement('p');
     // INSERISCO IL CONTENUTO NELL'ELEMENTO CREATO
     p.innerText = randomNum[i];
-    
+    // APPENDO L'ELEMENTO NELLA DESTINAZIONE
+    numbersOutput.append(p);
 }
 
 console.log(randomNum)
