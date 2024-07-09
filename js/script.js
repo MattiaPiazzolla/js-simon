@@ -39,7 +39,10 @@ setTimeout(function(){
 const userNum = [];
 // DEFINISCO IL setTimeout PER IL PROMPT
 setTimeout(function(){
-    
+        // AGGIUNGO UN CICLO WHILE PER FAR COMPARIRE UN FOR PER ACCETTARE PROMPT CON I NUMERI INSERITI DALL'UTENTE
+        while (userNum.length < 5){
+        
+        }
 }, 1100)
 
 console.log(randomNum)
