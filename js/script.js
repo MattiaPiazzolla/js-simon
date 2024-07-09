@@ -43,7 +43,12 @@ setTimeout(function(){
         while (userNum.length < 5){
             // DEFINISCO UNA VARIABILE PER IN NUMERI INSERITI DALL'UTENTE
             let numAdd = parseInt(prompt('Inserisci uno dei numeri che hai appena visto'));
-            
+            // DEFINISCO LE CONDIZIONI PER VERIFICARE CHE I NUMERI NON SI RIPETANO ALL'INTERNO DELL'ARRAI
+            if(!userNum.includes(numAdd) || (!isNaN(numAdd))){
+                userNum.push(numAdd)
+            } else {
+                alert('Assicurati di inserire numeri!')
+            }
         }
 }, 1100)
 
