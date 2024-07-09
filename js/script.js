@@ -66,6 +66,7 @@ setTimeout(function(){
 
         // RECUPERO LA DESTINAZIONE DELL'OUTPUT DEI RISULTATI
         const resultsOutput = document.getElementById('resultsOutput');
-
+        // GESTISCO L'OUTPUT DEI RISULTATI
+        resultsOutput.innerText = `Hai indovinato ${guessedNumber} numeri!`;
     }, 1100)
     
