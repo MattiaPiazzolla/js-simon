@@ -8,7 +8,8 @@ function generateRandomNum (){
         let num = Math.floor(Math.random() * 100 + 1);
         // DEFINISCO LE CONDIZIONI PER VERIFICARE CHE I NUMERI NON SI RIPETANO ALL'INTERNO DELL'ARRAY
         if (!randomNum.incluedes(num)){
-            
+            // IN CASO LE CONDIZIONI SI VERIFICHINO, INSERISCO IL NUMERO NELL'ARRAY CON UN PUSH
+            randomNum.push(num);
         }
     }
 }
