@@ -59,5 +59,8 @@ setTimeout(function(){
 let guessedNumber = 0;
 // CICLO FOR PER COMPARARE I NUMERI 
 for (let i = 0; i < userNum.length; i++) {
+// CONDIZIONI CHE VERIFICANO SE IL VALORE userNum in posizione i È INCLUSO NELL'ARRAY randomNum
+if (randomNum.includes(userNum[i])) {
     
+}
 }
