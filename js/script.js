@@ -21,6 +21,8 @@ generateRandomNum();
 const numbersOutput = document.getElementById('numbersOutput')
 // DEFINISCO UN CICLO FOR PER CICLARE E RECUPERARE TUTTI GLI ELEMENTI DELL'ARRAY 
 for(let i = 0; i < randomNum.length; i++){
+    // CREO L'ELEMENTO DOVE INSERIRO IL NUMERO 
+    let p = document.createElement('p');
     
 }
 
