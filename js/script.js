@@ -23,6 +23,8 @@ const numbersOutput = document.getElementById('numbersOutput')
 for(let i = 0; i < randomNum.length; i++){
     // CREO L'ELEMENTO DOVE INSERIRO IL NUMERO 
     let p = document.createElement('p');
+    // INSERISCO IL CONTENUTO NELL'ELEMENTO CREATO
+    p.innerText = randomNum[i];
     
 }
 
