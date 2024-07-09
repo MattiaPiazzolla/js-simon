@@ -19,3 +19,9 @@ function generateRandomNum (){
 generateRandomNum();
 // RECUPERO LA DESTINAZIONE DELL'OUTPUT
 const numbersOutput = document.getElementById('numbersOutput')
+// DEFINISCO UN CICLO FOR PER CICLARE E RECUPERARE TUTTI GLI ELEMENTI DELL'ARRAY 
+for(let i = 0; i < randomNum.length; i++){
+    
+}
+
+console.log(randomNum)
